@@ -1,0 +1,101 @@
+{
+        "client": {
+                "host":"10.101.53.35"
+        } ,
+        "server": {
+                "current_time": 1531680780 ,
+                "services": [
+                        {
+                        "name":"github",
+                        "actions": [
+                                {
+                                "name":"Tache sur un repo github",
+                                "description":"Créer une tache sur un repo github"
+                                },
+                                {
+                                "name":"Branche sur github",
+                                "description":"Créer une branche sur un repo github"
+                                },
+                                {
+                                "name":"Nouveau projet sur github",
+                                "description":"Créer un projet sur github"
+                                }
+                                ],
+                        "reactions": [
+                                {
+                                "name":"Envoie de mail",
+                                "description":"Envoie d'un mail au collaborateur à qui la tâche a éte assigné par gmail"
+                                },
+                                {
+                                "name":"Envoie de mmail",
+                                "description":"Envoie d'un mail à tout les collaborateurs sur le repo qu'une nouvelle branche a éte créer."
+                                },
+                                {
+                                "name":"Nouveau board",
+                                "description":"Création d'un board sur trello"
+                                }
+                                ]
+                        },
+                        {
+                        "name":"spotify",
+                        "actions": [
+                                {
+                                "name":"Son sur spotify",
+                                "description":"Like un son sur youtube"
+                                }
+                        ],
+                        "reactions": [
+                                {
+                                "name":"Ajoute le son",
+                                "description":"Ajoute le son liké dans une playlist spotify"
+                                }
+                        ]
+                        },
+                        {
+                        "name":"youtube",
+                        "actions": [{
+                                "name":"Visualization de son",
+                                "description":"Visualise un soon sur youtube"
+                                }],
+                        "reactions": [{
+                                "name":"Ajoute le son",
+                                "description":"Ajoute le son dans une playlist spotify nommé my song"
+                                }]
+                        },
+                        {
+                        "name":"Gmail",
+                        "actions": [{
+                                "name":"Création de playlist",
+                                "description":"Créer une playlist sur spotify"
+                                }],
+                        "reactions":[{
+                                "name":"Envoi de mail",
+                                "description":"Envoie un mail sur gmail"
+                                }]
+                        },
+                        {
+                        "name":"Météo",
+                        "actions": [{
+                                "name":"Vérification de la température du temps",
+                                "description":"Utilise l'api de openweather pour vérifier la nature du temps pour une ville"
+                                }],
+                        "reactions":[{
+                                "name":"Envoi de mail",
+                                "description":"L'utilisateur recoit un mail qui indique le temps qu'il fait par gmail"
+                                }]
+                        },
+                        {
+                        "name":"Dog/News",
+                        "actions": [{
+                                "name":"Récupérer des blagues",
+                                "description":"Utilise l'api de dog pour récupérer une random de blagues"
+                                }],
+                        "reactions":[{
+                                "name":"Envoi d'article",
+                                "description":"Un article est envoyé en rapport avec la race de chiens"
+                                }]
+                        }
+                                
+                ]
+        }
+}
